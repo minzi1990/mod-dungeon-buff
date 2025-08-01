@@ -1,0 +1,23 @@
+[worldserver]
+
+########################################
+# Dungeon Buff module configuration
+########################################
+#
+#    DungeonBuff.Spell.Dungeon
+#        Description: The spell ID (from Spell.dbc) automatically applied to players
+#                     in non-raid dungeons.
+#                     If set to 0, the system is disabled for non-raid dungeons.
+#        Default:     0 - Disabled
+#
+
+DungeonBuff.Spell.Dungeon = 0
+
+#    DungeonBuff.Spell.Raid
+#        Description: The spell ID (from Spell.dbc) automatically applied to players
+#                     in raids.
+#                     If set to 0, the system is disabled for raids.
+#        Default:     0 - Disabled
+#
+
+DungeonBuff.Spell.Raid = 0
