@@ -60,7 +60,7 @@ public:
             if (oldDungeonSpellId != 0)
                 player->RemoveAurasDueToSpell(oldDungeonSpellId);
 
-            if (oldRaidSpellId)
+            if (oldRaidSpellId != 0)
                 player->RemoveAurasDueToSpell(oldRaidSpellId);
 
             Map const* map = player->FindMap();
